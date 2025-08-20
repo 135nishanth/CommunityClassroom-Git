@@ -1,0 +1,96 @@
+i am nishanth 
+i am trying to learn git and i am facing problem exiting 
+but i kind of solved if it works this time i will edit here about what is the process
+
+to insert anything in file 
+first press escape 
+than write whatever is the method 
+
+Mode Switching
+i — Insert text before the cursor (enter insert mode)
+
+a — Append text after the cursor (enter insert mode)
+
+I — Insert text at the beginning of the line (insert mode)
+
+A — Append text at the end of the line (insert mode)
+
+o — Open a new line below the current line (insert mode)
+
+O — Open a new line above the current line (insert mode)
+
+Esc — Exit insert mode and return to command mode
+
+Saving and Exiting
+:w — Save (write) changes to the file
+
+:q — Quit vi (only if no unsaved changes)
+
+:q! — Quit vi without saving changes
+
+:wq or :x — Save and quit vi
+
+Cursor Movement
+h or Left Arrow — Move cursor left
+
+j or Down Arrow — Move cursor down
+
+k or Up Arrow — Move cursor up
+
+l or Right Arrow — Move cursor right
+
+0 — Move to the beginning of the current line
+
+$ — Move to the end of the current line
+
+w — Move to the beginning of the next word
+
+b — Move to the beginning of the previous word
+
+G — Go to the last line of the file
+
+1G or :0 — Go to the first line of the file
+
+nG or :n — Go to line number n
+
+Deleting and Changing Text
+x — Delete the character under the cursor
+
+dd — Delete the entire current line
+
+dw — Delete from the cursor to the end of the word
+
+D — Delete from the cursor to the end of the line
+
+cw — Change (replace) the word from the cursor
+
+cc — Change (replace) the entire line
+
+Copying and Pasting
+yy — Yank (copy) the current line
+
+p — Paste the yanked or deleted text after the cursor
+
+Undo and Redo
+u — Undo the last change
+
+Ctrl+r — Redo the undone change
+
+Searching
+/string — Search forward for "string"
+
+?string — Search backward for "string"
+
+n — Repeat the last search in the same direction
+
+N — Repeat the last search in the opposite direction
+
+Screen Navigation
+Ctrl+d — Scroll down half a screen
+
+Ctrl+u — Scroll up half a screen
+
+Ctrl+f — Scroll forward full screen
+
+Ctrl+b — Scroll backward full screen
+
